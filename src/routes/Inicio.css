@@ -1,0 +1,90 @@
+.home-container{
+    padding: 20px;
+}
+
+.home-text p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(102, 169, 204);
+}
+
+.home-text p > span{
+    color: rgb(55, 120, 154);
+}
+
+.home-text span{
+    line-height: 25px;
+}
+
+.home-image{
+    width: 230px;
+    height: 230px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.home-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    margin-bottom: 5px;
+}
+
+.home-image span{
+    position: absolute;
+    top: 80px;
+    left: 30px;
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    filter: brightness(0.9);
+    z-index: 999;
+}
+
+@media screen and (min-width:745px) {
+    .home-text p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .home-text .span{
+        text-align: center;
+        font-size: 18px;
+    }
+    .home-image{
+        width: 350px;
+        height: 350px;
+    }
+    .home-image span{
+        top: 100px;
+        left: 70px;
+        width: 200px;
+    }    
+}
+
+/* ******* Seccion de Cuentos ******* */
+.info-container{
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.info-text p{
+    line-height: 20px;
+}
+
+.info-text span{
+    font-weight: 500;
+    color: rgb(199, 37, 37);
+}
+
+.info-text .last{
+    font-weight: 500;
+}
+
+.info-container .info-image{
+    filter: brightness(0.7);
+}

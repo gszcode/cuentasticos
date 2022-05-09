@@ -1,0 +1,56 @@
+.storie{
+    margin-bottom: 40px;
+}
+
+.read-download{
+    text-align: center;
+    color: #ccc;
+    margin: 10px 0 -5px 0;
+    background-color: rgb(178, 27, 27);
+}
+
+.storie-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.storie h5{
+    color: rgb(55, 120, 154);
+}
+
+.storie span{
+    font-size: 16px;
+    line-height: 4;
+    font-weight: 500;
+    margin-right: 10px;
+    color: rgb(199, 37, 37);
+}
+
+.storie-image{
+    width: 230px;
+    height: 300px;
+}
+
+.storie-image img{
+    box-shadow: 2px 2px 10px #888;
+    transition: all 300ms;
+}
+
+.storie-image img:hover{
+    opacity: .9;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:650px) {
+    .storie-image{
+        width: 200px;
+        height: 280px;
+    }
+}
+
+@media screen and (min-width:1010px) {
+    .storie-image{
+        width: 180px;
+        height: 240px;
+    }
+}

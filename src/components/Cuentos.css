@@ -1,0 +1,37 @@
+.stories-container{
+    margin-top: -40px;
+    padding: 20px;
+}
+
+.stories-text p{
+    line-height: 23px;
+}
+
+.stories-image{
+    width: 230px;
+    margin: auto;
+    min-height: 300px;
+}
+
+.stories-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width:650px) {
+    .stories-image{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 25px;
+    }
+}
+
+@media screen and (min-width:1010px) {
+    .stories-image{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px;
+    }
+}

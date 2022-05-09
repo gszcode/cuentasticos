@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(102, 169, 204);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+img{
+    border-radius: 15px;
+}
